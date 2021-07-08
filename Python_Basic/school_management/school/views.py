@@ -59,4 +59,5 @@ def save_list():
 
 
 def load_list():
-    init_data_load()
+    global people
+    people = init_data_load()

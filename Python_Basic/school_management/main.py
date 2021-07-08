@@ -1,9 +1,9 @@
 from school.models import Employee, Instructor, Student
 from school.exception import DuplicateError, NotFoundError
 from school.templates import menu_display, menu_select, list_display, submenu, input_display, message_display, id_input_display, update_input_display, person_display
-from school.views import get_all_people, register, get_person, update, remove, save_list, init_data_load
+from school.views import get_all_people, register, get_person, update, remove, save_list, load_list
 
-init_data_load()
+load_list()
 
 while True:
     menu_display()
